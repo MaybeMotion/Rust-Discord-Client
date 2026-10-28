@@ -1,0 +1,14 @@
+[workspace]
+members = ["crates/discord-core", "apps/desktop/src-tauri"]
+default-members = ["crates/discord-core"]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+license = "MIT"
+version = "0.1.0"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = true

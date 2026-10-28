@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "name": "Cyber mint",
+  "colors": {
+    "background": "#100d23",
+    "surface": "#231b39",
+    "text": "#f9edff",
+    "muted": "#c6aedc",
+    "accent": "#48f7da",
+    "border": "#634479"
+  },
+  "glass": true
+}
